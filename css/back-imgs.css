@@ -1,0 +1,9 @@
+.container{
+    width: 1000px;
+    height: 1000px;
+    background: tomato;
+    background-image: url("/image/ba55307500f38b5b93e75f479290cd711.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
