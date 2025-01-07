@@ -1,0 +1,20 @@
+.desc{
+    color: black;
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin: auto;
+}
+.img{
+    background-image: url('../img/blog_img.JPG');
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 200px;
+    /* background-position: center; */
+    height: 200px;
+    float: right;
+    margin: auto;
+
+}
