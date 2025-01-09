@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/product.css">
+        <script defer src="js/product.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="get" onsubmit="orders()">
+                <fieldset id="order">
+                    <legend>상품 선택</legend>
+                    <h4>주문할 상품을 선택해 주세요.</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="" id="gift3kg" value="check">
+                            <label for="gift3kg">선물용 3kg</label>
+                            <input type="text" id="gift3">개 (최대 5개)
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="gift5kg" value="check">
+                            <label for="gift5kg">선물용 5kg</label>
+                            <input type="text" id="gift5">개 (최대 5개)
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="home3kg" value="check">
+                            <label for="home3kg">가정용 3kg</label>
+                            <input type="text" id="home3">개 (최대 5개)
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="home5kg" value="check">
+                            <label for="home5kg">가정용 5kg</label>
+                            <input type="text" id="home5">개 (최대 5개)
+                        </li>
+                        <h4>포장 선택</h4>
+                        <input type="radio" id="giftOk" name="wrap" value="ok" checked="checked">
+                        <label for="giftOk">선물 포장</label>
+                        <br>
+                        <input type="radio" id="gigtNo" name="wrap" value="no">
+                        <label for="gigtNo">선물 포장 안함</label>
+                    </ul>
+                </fieldset>
+                <fieldset id="info">
+                    <legend>배송 정보</legend>
+                    <ul>
+                        <li>
+                            <label for="name">이름</label>
+                            <input type="text" id="name">
+                        </li>
+                        <li>
+                            <label for="address">배송 주소</label>
+                            <input type="text" id="address">
+                        </li>
+                        <li>
+                            <label for="email">이메일</label>
+                            <input type="text" id="email">
+                        </li>
+                        <li>
+                            <label for="phone">연락처</label>
+                            <input type="tel" id="phone">
+                        </li>
+                        <li>
+                            <label for="deliveryAddress">배송 지정</label>
+                            <input type="date" id="deliveryAddress">(주문일로부터 최소 3일 이후)
+
+                        </li>
+                        <li>
+                            <label for="memo">메모</label>
+                            <textarea name="memo" id="memo" rows="4" cols="40"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+                <div class="buttons">
+                    <input type="submit" value="주문하기">
+                    <input type="reset" value="취소하기">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
