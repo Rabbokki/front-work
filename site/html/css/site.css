@@ -1,0 +1,38 @@
+.main{
+    width: 500px;
+    height: 200px;
+    
+}
+.img{
+    background-image: url('/site/html/img/camera.webp');
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 200px;
+    /* background-position: center; */
+    height: 200px;
+    float: left;
+    margin: auto;
+}
+.desc{
+    padding-left: 20px;
+    float: left;
+}
+
+.title{
+    font-size: 30px;
+}
+.loc{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.like{
+    float: right;
+    color: gray;
+}

@@ -1,0 +1,81 @@
+.container{
+    width: 600px;
+    margin: 10px auto;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+fieldset{
+    margin-bottom: 20px;
+}
+
+ul li{
+    margin: 10px;
+}
+
+li label{
+    float: left;
+    width: 120px;
+    line-height: 30px;
+}
+
+/* input[type="text"],
+input[type="password"],
+input[type="email"]{
+    width: 300px;
+    height: 30px;
+} */
+
+input[type="checkbox"]{
+    float: left;
+    width: 15px;
+    height: 20px;
+}
+
+fieldset[id="order"] input[type="text"]{
+    width: 30px;
+}
+
+fieldset[id="info"] input[type="text"]{
+    width: 300px;
+}
+legend{
+    font-weight: bold;
+}
+.buttons{
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.buttons input{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    
+}
+
+.buttons input:hover{
+    background-color: rgb(27,134,221);
+    color: #fff;
+    border-color: #fff;
+}
+input[type="submit"]{
+    color: white;
+    background-color: rgb(27,134,221);
+    border-color: #fff;
+    float: left;
+}
+input[type="reset"]{
+    color: black;
+    background-color: white;
+    border-color: #fff;
+    float: right;
+}
+
+
+   
+
