@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+    width: 700px;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+th, td {
+    border: none; /* 세로줄 제거 */
+    text-align: center;
+    padding: 8px;
+    
+}
+tr {
+    border-bottom: 1px solid black; /* 가로줄 추가 */
+    border-bottom: 2px solid rgb(181, 221, 231);
+    
+}
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 500px
+}
+.container{
+    width: 800px;
+    height: 300px;
+    
+    background-color: rgb(181, 221, 231);
+    
+}
+th, td, tr{
+    background-color: white;
+    width: 300px;
+    
+}
+
+input[type = "text"]{
+    width: 200px;
+}
+input[type = "submit"]{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(216, 110, 23);
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    margin-left: 10px;
+}
+img{
+        display: flex;
+        align-items: center; /* 세로로 중앙 정렬 */
+        justify-content: flex-start; /* 좌측 정렬 */
+}
+span{
+    margin-left: 20px;
+}
