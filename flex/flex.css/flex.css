@@ -1,42 +1,43 @@
-.flex-container1{
+.flex-container {
     display: flex;
     flex-direction: row;
-    /* 가로 정렬일때 맞춤 */
+    /* 가로정렬일 때 맞춤 */
     justify-content: center;
-    /* 세로 정렬일때 맞춤 */
+    /* 세로정렬일 때 맞춤 */
     align-items: center;
     flex-wrap: wrap;
-}
-
-.item1{
+  }
+  
+  .flex-item{
     display: flex;
     background-color: grey;
     width: 200px;
     height: 200px;
     margin: 5px;
-    text-align: center;
-    vertical-align: middle;
+    /* text-align: center; */
     justify-content: center;
     align-items: center;
-}
-.item1{
+  }
+  
+  .flex-container2 {
+    display: flex;
+  }
+  
+  .item1 {
     width: 200px;
     height: 200px;
     background-color: blue;
-    /* flex-grow: 1; */
-}
-
-.flex-container2{
-
-}
-
-h1{
-    column-span: all;
-}
-
-.item2{
+    flex-grow: 1;
+  }
+  .item2 {
     width: 200px;
     height: 200px;
     background-color: red;
+    flex-grow: 8;
+  }
+  .item3 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
     flex-grow: 1;
-}
+  }
