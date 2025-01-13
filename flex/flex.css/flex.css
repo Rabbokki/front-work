@@ -30,6 +30,10 @@
 
 }
 
+h1{
+    column-span: all;
+}
+
 .item2{
     width: 200px;
     height: 200px;
