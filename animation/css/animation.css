@@ -1,0 +1,26 @@
+.container{
+    height: 100px;
+    border: solid 4px black;
+}
+
+.item{
+    /* 배경색 : royalBlue */
+    /* 글자 색 : wheat; */
+    /* 가로 세로 100px */
+    /* 글자 정 중앙에 위치 */
+
+    background-color: royalblue;
+    color: wheat;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover{
+    background-color: orange;
+    transform: rotate(45deg);
+    border-radius: 50px;
+    transition: 0.1s;
+}

@@ -150,8 +150,25 @@ div, input, textarea{
     }
 } */
 
-.product-fontAwesome{
-
+.shop-bg{
+    background-color: #eee;
+    padding: 20px;
+    
+}
+.shop-container{
+    display: flex;
+    flex-direction: row;
+    /* 가로 정렬일때 맞춤 */
+    justify-content: center;
+    /* 세로 정렬일때 맞춤 */
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.shop-item img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
 }
 
 @media screen and(max-width: 1200px) {
