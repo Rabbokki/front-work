@@ -127,6 +127,16 @@ div, input, textarea{
     width: 25%;
     text-align: center;
 }
+.product-container i{
+    background: burlywood;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    margin-top: 20px;
+    border-radius: 50px;
+    color: wheat;
+    box-sizing: border-box;
+}
 
 /* @media screen and (max-width: 1200px) {
     .product-container div{
@@ -139,6 +149,10 @@ div, input, textarea{
         width: 75%;
     }
 } */
+
+.product-fontAwesome{
+
+}
 
 @media screen and(max-width: 1200px) {
 
