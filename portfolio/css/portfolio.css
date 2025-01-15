@@ -1,40 +1,39 @@
-.sub-container1{
+.sub-container1 {
     background: linear-gradient(blue, purple);
     width: 100%;
     height: 300px;
     padding-left: 70px;
     padding-top: 70px;
     display: flex;
-    
+
 }
 img {
     width: 300px;
     height: 300px;
     margin-right: 150px;
- 
-    
+
 }
 
-.title{
+.title {
     color: white;
     font-size: 40px;
     margin-bottom: 30px;
     width: 500px;
-    
+
 }
 
-.sub-title{
+.sub-title {
     width: 40%;
     font-size: 15px;
     color: white;
-    
-    
+
 }
 .text-container {
     display: flex;
-    flex-direction: column; /* 수직 정렬 */
+    flex-direction: column;
+    /* 수직 정렬 */
 }
-button{
+button {
     width: 100px;
     height: 30px;
     background-color: rgb(59, 56, 56);
@@ -42,7 +41,7 @@ button{
     margin-top: 20px;
 }
 
-.sub-container2{
+.sub-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,37 +49,36 @@ button{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.desc{
+.desc {
     font-weight: bold;
 }
-.sub-container3{
+.sub-container3 {
     background-color: rgb(106, 106, 230);
     width: 100%;
-    height: 300px;
+    height: 400px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.sub-title2{
+.sub-title2 {
     font-weight: bold;
 }
 
-  .product-container {
+.product-container {
     width: 80%;
     max-width: 1000px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .product-container div {
+    margin: 50px auto;
+}
+
+.product-container div {
     float: left;
     width: 25%;
     text-align: center;
-  }
-  
-  .product-container i {
+}
+
+.product-container i {
     background: rgb(236, 234, 234);
     width: 100px;
     height: 100px;
@@ -89,8 +87,106 @@ button{
     border-radius: 50px;
     color: rgb(106, 106, 230);
     box-sizing: border-box;
-  }
-  .text-container3 {
+}
+.text-container3 {
     display: flex;
-    flex-direction: column; /* 수직 정렬 */
+    flex-direction: column;
+    /* 수직 정렬 */
+    text-align: center;
+}
+
+.text-container4 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* 수직 정렬 */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.img-box {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+.image-container {
+    position: relative;
+    /* 텍스트 오버레이의 기준점 설정 */
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    /* 부모 요소 기준 위치 설정 */
+    top: 30px;
+    /* 상단에서의 거리 */
+    left: 20px;
+    /* 좌측에서의 거리 */
+    color: white;
+    /* 텍스트 색상 */
+    padding: 5px 10px;
+    /* 텍스트 주변 여백 */
+    font-size: 14px;
+    /* 텍스트 크기 */
+    font-weight: bold;
+    /* 텍스트 굵기 */
+    border-radius: 5px;
+    /* 모서리 둥글게 */
+    
+
+}
+
+.sub-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sns-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* 아이콘 간의 간격을 좁게 설정 */
+    margin: 0;
+    /* 추가 여백 제거 */
+}
+
+.sns-box div {
+    margin: 0;
+    /* 각 아이콘 주변의 여백 제거 */
+    padding: 10px;
+    /* 불필요한 패딩 제거 */
+}
+
+.sns-box i {
+    margin-top: 50px;
+    background: rgb(106, 106, 230);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
 }
